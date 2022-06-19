@@ -1,0 +1,9 @@
+[package]
+name        = "bk85"
+version     = "0.0.1"
+edition     = "2021"
+
+authors     = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
+description = "i8085/bk85 emulator"
+
+[dependencies]

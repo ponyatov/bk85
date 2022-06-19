@@ -1,0 +1,4 @@
+*.pdf
+*.djvu
+sch*.zip
+!.gitignore

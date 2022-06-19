@@ -1,0 +1,47 @@
+{
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.f11",
+            "sequence": [
+                "workbench.action.files.saveAll",
+                {"command": "workbench.action.terminal.sendSequence",
+                    "args": {"text": "\u000D clear ; make meta \u000D"}}]
+        },
+        {
+            "command": "multiCommand.f12",
+            "sequence": [
+                "workbench.action.files.saveAll",
+                {"command": "workbench.action.terminal.sendSequence",
+                    "args": {"text": "\u000D clear ; make all \u000D"}}]
+        },
+    ],
+
+    // files
+    "files.exclude": {
+        "docs/**":true,
+        "bk85/**":true,
+        "**/__pycache__/**":true, "**/.pytest_cache/**":true,
+        "**/Cargo.lock":true,
+    },
+    "files.watcherExclude": {
+        "docs/**":true,
+        "bk85/**":true,
+        "**/__pycache__/**":true, "**/.pytest_cache/**":true,
+    },
+    "files.associations": {
+    },
+
+    // editor
+    "editor.tabSize": 4,
+    "editor.rulers": [80],
+    "workbench.tree.indent": 32,
+    "git.ignoreLimitWarning": true,
+
+    // msys2
+    "terminal.integrated.shell.windows": "D:\\msys2\\usr\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": ["--login", "-i"],
+    "terminal.integrated.env.windows": {
+        "MSYSTEM": "MINGW64",
+        "CHERE_INVOKING": "1",
+    },
+}

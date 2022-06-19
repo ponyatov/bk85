@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "ryuta46.multi-command",
+        "stkb.rewrap",
+        "tabnine.tabnine-vscode",
+        // "ms-vscode-remote.remote-ssh",
+        // "ms-azuretools.vscode-docker",
+        "ms-vscode.makefile-tools",
+        // python
+        "tht13.python",
+    ]
+}
